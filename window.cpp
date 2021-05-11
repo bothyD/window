@@ -91,15 +91,18 @@ void menu1(RenderWindow &window)
                         if (menuNum1 == 1)
                         {
                             menu(window);
+                            
                         }
                         if (menuNum1 == 2)
                         {
                             menu(window);
+                            
                         }
 
                         if (menuNum1 == 1)
                         {
                             menu(window);
+                            
                         }
 
                         window.clear();
@@ -185,18 +188,19 @@ int main()
                 if (menuNum1 == 1)
                 {
                     menu(window);
+                    break;
                     
                 }
                 if (menuNum1 == 2)
                 {
                     menu(window);
-                    
+                    break;
                 }
 
                 if (menuNum1 == 1)
                 {
                     menu(window);
-                
+                    break;
                 }
 
                 window.clear();
